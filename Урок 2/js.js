@@ -38,3 +38,16 @@ switch (num2) {
         console.log('err');
         break;
 }
+
+let i=0;
+while (i<50) {
+    console.log('i='+i);
+    i++;
+}
+
+let j=0;
+do {
+    console.log('j='+j);
+    j++
+}
+while (j<50);
