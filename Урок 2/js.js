@@ -48,6 +48,11 @@ while (i<50) {
 let j=0;
 do {
     console.log('j='+j);
-    j++
+    j++;
 }
 while (j<50);
+
+for (let i2=1;i2<8;i2++) {
+    if (i2==6) {continue;}
+    console.log('i2='+i2);
+}
